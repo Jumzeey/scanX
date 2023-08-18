@@ -1,0 +1,12 @@
+@primary-color: #1890ff; 
+
+.ant-input-affix-wrapper.primary:focus,
+.ant-input-affix-wrapper.primary:not(.ant-input-affix-wrapper-disabled):hover{
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.ant-btn-primary.primary{
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
